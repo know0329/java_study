@@ -7,7 +7,7 @@ public class CustomerTest1 {
 		Customer customerLee = new Customer(10100, "Lee");
 		
 		
-		VIPCustomer customerKim = new VIPCustomer(10101, "Kim");
+		VIPCustomer customerKim = new VIPCustomer(10101, "Kim", 100);
 		
 		customerKim.bonusPoint = 2430;
 		System.out.println(customerLee.showCustomerInfo());

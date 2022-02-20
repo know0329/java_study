@@ -1,4 +1,4 @@
-package inheritance;
+package witharraylist;
 
 public class VIPCustomer extends Customer{
 	
@@ -22,10 +22,13 @@ public class VIPCustomer extends Customer{
 		bonusPoint += price * bonusRatio;
 		return price - (int)(price * saleRatio); 
 	}
-	
+
+
 	@Override
 	public String showCustomerInfo() {
 		// TODO Auto-generated method stub
 		return super.showCustomerInfo() + " 또한 개인 상담원의 아이디는 " + agentID + " 입니다.";
 	}
+	
+	
 }
